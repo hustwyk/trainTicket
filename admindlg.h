@@ -28,6 +28,15 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_pushButton_7_clicked();
+
+    void on_pushButton_10_clicked();
+
+    void on_pushButton_3_clicked();
+
+signals:
+	void sendTrainnum(QString trainnum);
+
 private:
     Ui::AdminDlg *ui;
     QString trainnum;

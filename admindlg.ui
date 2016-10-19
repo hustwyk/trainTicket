@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1215</width>
-    <height>544</height>
+    <height>406</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -124,23 +124,9 @@
                 </spacer>
                </item>
                <item>
-                <widget class="QPushButton" name="pushButton_2">
-                 <property name="text">
-                  <string>添加车站</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QPushButton" name="pushButton_4">
-                 <property name="text">
-                  <string>修改车站</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
                 <widget class="QPushButton" name="pushButton_3">
                  <property name="text">
-                  <string>删除车站</string>
+                  <string>车站管理</string>
                  </property>
                 </widget>
                </item>

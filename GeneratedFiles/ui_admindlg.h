@@ -51,8 +51,6 @@ public:
     QTableView *tableView;
     QVBoxLayout *verticalLayout;
     QSpacerItem *verticalSpacer;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_4;
     QPushButton *pushButton_3;
     QWidget *tab_2;
     QVBoxLayout *verticalLayout_5;
@@ -96,7 +94,7 @@ public:
     {
         if (AdminDlg->objectName().isEmpty())
             AdminDlg->setObjectName(QStringLiteral("AdminDlg"));
-        AdminDlg->resize(1215, 544);
+        AdminDlg->resize(1215, 406);
         gridLayout_4 = new QGridLayout(AdminDlg);
         gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
         verticalLayout_10 = new QVBoxLayout();
@@ -174,16 +172,6 @@ public:
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout->addItem(verticalSpacer);
-
-        pushButton_2 = new QPushButton(tab);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-
-        verticalLayout->addWidget(pushButton_2);
-
-        pushButton_4 = new QPushButton(tab);
-        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
-
-        verticalLayout->addWidget(pushButton_4);
 
         pushButton_3 = new QPushButton(tab);
         pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
@@ -395,9 +383,7 @@ public:
         pushButton->setText(QApplication::translate("AdminDlg", "\346\237\245\346\211\276", 0));
         pushButton_5->setText(QApplication::translate("AdminDlg", "\346\267\273\345\212\240\350\275\246\346\254\241", 0));
         pushButton_6->setText(QApplication::translate("AdminDlg", "\345\210\240\351\231\244\350\275\246\346\254\241", 0));
-        pushButton_2->setText(QApplication::translate("AdminDlg", "\346\267\273\345\212\240\350\275\246\347\253\231", 0));
-        pushButton_4->setText(QApplication::translate("AdminDlg", "\344\277\256\346\224\271\350\275\246\347\253\231", 0));
-        pushButton_3->setText(QApplication::translate("AdminDlg", "\345\210\240\351\231\244\350\275\246\347\253\231", 0));
+        pushButton_3->setText(QApplication::translate("AdminDlg", "\350\275\246\347\253\231\347\256\241\347\220\206", 0));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("AdminDlg", "\350\275\246\346\254\241\347\256\241\347\220\206", 0));
         label_3->setText(QApplication::translate("AdminDlg", "\347\224\250\346\210\267\345\220\215\357\274\232", 0));
         pushButton_7->setText(QApplication::translate("AdminDlg", "\346\237\245\346\211\276", 0));

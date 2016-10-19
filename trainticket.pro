@@ -19,18 +19,21 @@ SOURCES += main.cpp\
     register.cpp \
     inquire.cpp \
     bookdlg.cpp \
-    admindlg.cpp
+    admindlg.cpp \
+    stationdlg.cpp
 
 HEADERS  += mainwindow.h \
     logindlg.h \
     register.h \
     inquire.h \
     bookdlg.h \
-    admindlg.h
+    admindlg.h \
+    stationdlg.h
 
 FORMS    += mainwindow.ui \
     logindlg.ui \
     register.ui \
     inquire.ui \
     bookdlg.ui \
-    admindlg.ui
+    admindlg.ui \
+    stationdlg.ui
