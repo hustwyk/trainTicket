@@ -34,8 +34,14 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_6_clicked();
+
 signals:
 	void sendTrainnum(QString trainnum);
+
+    void sendTrainnum_2(QString trainnum);
 
 private:
     Ui::AdminDlg *ui;

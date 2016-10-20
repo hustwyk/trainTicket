@@ -36,17 +36,23 @@
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{7ce21e80-3640-477a-9a8f-e96baa93a9b9}</UniqueIdentifier>
+      <UniqueIdentifier>{ffc9754b-43c1-474e-baa5-b31afada623a}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{4d48b53f-fa97-4b54-9ee5-1b43cbd32cdd}</UniqueIdentifier>
+      <UniqueIdentifier>{adde9d82-cadc-4f65-9d5f-756fa9ad1bc1}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="addstationdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addtraindlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="admindlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -65,11 +71,26 @@
     <ClCompile Include="mainwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modifystationdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="register.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stationdlg.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_addstationdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_addstationdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_addtraindlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_addtraindlg.cpp">
+      <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="Debug\moc_admindlg.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -101,6 +122,12 @@
     <ClCompile Include="Release\moc_mainwindow.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="Debug\moc_modifystationdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_modifystationdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
     <ClCompile Include="Debug\moc_register.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
@@ -115,6 +142,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="addstationdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addtraindlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="admindlg.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
@@ -130,6 +163,9 @@
     <CustomBuild Include="mainwindow.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="modifystationdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="register.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
@@ -138,6 +174,12 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="addstationdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addtraindlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="admindlg.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
@@ -153,6 +195,9 @@
     <CustomBuild Include="mainwindow.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="modifystationdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="register.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
@@ -161,6 +206,12 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_addstationdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addtraindlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_admindlg.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
@@ -174,6 +225,9 @@
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_modifystationdlg.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_register.h">

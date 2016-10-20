@@ -20,7 +20,10 @@ SOURCES += main.cpp\
     inquire.cpp \
     bookdlg.cpp \
     admindlg.cpp \
-    stationdlg.cpp
+    stationdlg.cpp \
+    addstationdlg.cpp \
+    modifystationdlg.cpp \
+    addtraindlg.cpp
 
 HEADERS  += mainwindow.h \
     logindlg.h \
@@ -28,7 +31,10 @@ HEADERS  += mainwindow.h \
     inquire.h \
     bookdlg.h \
     admindlg.h \
-    stationdlg.h
+    stationdlg.h \
+    addstationdlg.h \
+    modifystationdlg.h \
+    addtraindlg.h
 
 FORMS    += mainwindow.ui \
     logindlg.ui \
@@ -36,4 +42,7 @@ FORMS    += mainwindow.ui \
     inquire.ui \
     bookdlg.ui \
     admindlg.ui \
-    stationdlg.ui
+    stationdlg.ui \
+    addstationdlg.ui \
+    modifystationdlg.ui \
+    addtraindlg.ui

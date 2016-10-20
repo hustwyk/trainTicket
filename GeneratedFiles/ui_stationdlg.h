@@ -35,6 +35,7 @@ public:
     QHBoxLayout *horizontalLayout;
     QTableView *tableView;
     QVBoxLayout *verticalLayout;
+    QPushButton *pushButton_4;
     QSpacerItem *verticalSpacer;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
@@ -62,6 +63,11 @@ public:
 
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        pushButton_4 = new QPushButton(groupBox);
+        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
+
+        verticalLayout->addWidget(pushButton_4);
+
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout->addItem(verticalSpacer);
@@ -103,6 +109,7 @@ public:
     {
         StationDlg->setWindowTitle(QApplication::translate("StationDlg", "Station", 0));
         groupBox->setTitle(QApplication::translate("StationDlg", "GroupBox", 0));
+        pushButton_4->setText(QApplication::translate("StationDlg", "\345\210\267\346\226\260", 0));
         pushButton->setText(QApplication::translate("StationDlg", "\346\267\273\345\212\240\350\275\246\347\253\231", 0));
         pushButton_2->setText(QApplication::translate("StationDlg", "\344\277\256\346\224\271\350\275\246\347\253\231", 0));
         pushButton_3->setText(QApplication::translate("StationDlg", "\345\210\240\351\231\244\350\275\246\347\253\231", 0));

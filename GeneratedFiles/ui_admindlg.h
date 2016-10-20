@@ -42,14 +42,15 @@ public:
     QGridLayout *gridLayout;
     QLabel *label_2;
     QLineEdit *trainlineEdit;
+    QPushButton *pushButton;
     QHBoxLayout *horizontalLayout_2;
     QSpacerItem *horizontalSpacer;
-    QPushButton *pushButton;
     QPushButton *pushButton_5;
-    QPushButton *pushButton_6;
     QHBoxLayout *horizontalLayout;
     QTableView *tableView;
     QVBoxLayout *verticalLayout;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_6;
     QSpacerItem *verticalSpacer;
     QPushButton *pushButton_3;
     QWidget *tab_2;
@@ -131,28 +132,23 @@ public:
 
         horizontalLayout_6->addLayout(gridLayout);
 
+        pushButton = new QPushButton(tab);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setMouseTracking(false);
+        pushButton->setAutoDefault(true);
+
+        horizontalLayout_6->addWidget(pushButton);
+
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         horizontalLayout_2->addItem(horizontalSpacer);
 
-        pushButton = new QPushButton(tab);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setMouseTracking(false);
-        pushButton->setAutoDefault(true);
-
-        horizontalLayout_2->addWidget(pushButton);
-
         pushButton_5 = new QPushButton(tab);
         pushButton_5->setObjectName(QStringLiteral("pushButton_5"));
 
         horizontalLayout_2->addWidget(pushButton_5);
-
-        pushButton_6 = new QPushButton(tab);
-        pushButton_6->setObjectName(QStringLiteral("pushButton_6"));
-
-        horizontalLayout_2->addWidget(pushButton_6);
 
 
         horizontalLayout_6->addLayout(horizontalLayout_2);
@@ -169,6 +165,16 @@ public:
 
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        pushButton_2 = new QPushButton(tab);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+
+        verticalLayout->addWidget(pushButton_2);
+
+        pushButton_6 = new QPushButton(tab);
+        pushButton_6->setObjectName(QStringLiteral("pushButton_6"));
+
+        verticalLayout->addWidget(pushButton_6);
+
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout->addItem(verticalSpacer);
@@ -382,6 +388,7 @@ public:
         label_2->setText(QApplication::translate("AdminDlg", "\350\275\246\346\254\241\357\274\232", 0));
         pushButton->setText(QApplication::translate("AdminDlg", "\346\237\245\346\211\276", 0));
         pushButton_5->setText(QApplication::translate("AdminDlg", "\346\267\273\345\212\240\350\275\246\346\254\241", 0));
+        pushButton_2->setText(QApplication::translate("AdminDlg", "\344\277\256\346\224\271\350\275\246\346\254\241", 0));
         pushButton_6->setText(QApplication::translate("AdminDlg", "\345\210\240\351\231\244\350\275\246\346\254\241", 0));
         pushButton_3->setText(QApplication::translate("AdminDlg", "\350\275\246\347\253\231\347\256\241\347\220\206", 0));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("AdminDlg", "\350\275\246\346\254\241\347\256\241\347\220\206", 0));
