@@ -11,7 +11,10 @@
 #include <QDebug>
 #include <QSqlTableModel>
 #include <QDate>
+#include <QDateTime>
+#include <QTime>
 #include <QDateEdit>
+#include <QStandardItemModel>
 
 
 namespace Ui {
@@ -24,6 +27,8 @@ class Inquire : public QDialog
 
 public:
     explicit Inquire(QWidget *parent = 0);
+    int findTheLeast(QString trainnum, QString databasecolum);
+    QString duringTime(QString leavetime, QString arrivaltime);
     ~Inquire();
 
 private slots:
@@ -37,7 +42,8 @@ private:
     QString arrivalStation;
     QDate leavedate;
     int flag;
-    QSqlTableModel *model = new QSqlTableModel(this);
+    QStandardItemModel *model = new QStandardItemModel();
+    //QSqlTableModel *model = new QSqlTableModel(this);
 };
 
 #endif // INQUIRE_H
