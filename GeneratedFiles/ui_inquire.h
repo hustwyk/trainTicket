@@ -32,8 +32,8 @@ class Ui_Inquire
 {
 public:
     QGridLayout *gridLayout_4;
-    QVBoxLayout *verticalLayout;
     QLabel *label;
+    QVBoxLayout *verticalLayout_2;
     QHBoxLayout *horizontalLayout_2;
     QHBoxLayout *horizontalLayout;
     QGridLayout *gridLayout;
@@ -46,7 +46,11 @@ public:
     QLabel *label_4;
     QDateEdit *dateEdit;
     QPushButton *pushButton;
+    QHBoxLayout *horizontalLayout_4;
     QTableView *tableView;
+    QVBoxLayout *verticalLayout;
+    QSpacerItem *verticalSpacer;
+    QPushButton *pushButton_3;
     QHBoxLayout *horizontalLayout_3;
     QSpacerItem *horizontalSpacer;
     QPushButton *pushButton_2;
@@ -55,17 +59,17 @@ public:
     {
         if (Inquire->objectName().isEmpty())
             Inquire->setObjectName(QStringLiteral("Inquire"));
-        Inquire->resize(692, 403);
+        Inquire->resize(1080, 403);
         gridLayout_4 = new QGridLayout(Inquire);
         gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         label = new QLabel(Inquire);
         label->setObjectName(QStringLiteral("label"));
         label->setAlignment(Qt::AlignCenter);
 
-        verticalLayout->addWidget(label);
+        gridLayout_4->addWidget(label, 0, 0, 1, 1);
 
+        verticalLayout_2 = new QVBoxLayout();
+        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
         horizontalLayout = new QHBoxLayout();
@@ -125,13 +129,32 @@ public:
         horizontalLayout_2->addWidget(pushButton);
 
 
-        verticalLayout->addLayout(horizontalLayout_2);
+        verticalLayout_2->addLayout(horizontalLayout_2);
 
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
         tableView = new QTableView(Inquire);
         tableView->setObjectName(QStringLiteral("tableView"));
         tableView->setShowGrid(true);
 
-        verticalLayout->addWidget(tableView);
+        horizontalLayout_4->addWidget(tableView);
+
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer);
+
+        pushButton_3 = new QPushButton(Inquire);
+        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
+
+        verticalLayout->addWidget(pushButton_3);
+
+
+        horizontalLayout_4->addLayout(verticalLayout);
+
+
+        verticalLayout_2->addLayout(horizontalLayout_4);
 
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
@@ -145,10 +168,10 @@ public:
         horizontalLayout_3->addWidget(pushButton_2);
 
 
-        verticalLayout->addLayout(horizontalLayout_3);
+        verticalLayout_2->addLayout(horizontalLayout_3);
 
 
-        gridLayout_4->addLayout(verticalLayout, 0, 0, 1, 1);
+        gridLayout_4->addLayout(verticalLayout_2, 1, 0, 1, 1);
 
 
         retranslateUi(Inquire);
@@ -164,6 +187,7 @@ public:
         label_3->setText(QApplication::translate("Inquire", "\347\233\256\347\232\204\345\234\260\357\274\232", 0));
         label_4->setText(QApplication::translate("Inquire", "\345\207\272\345\217\221\346\227\245\357\274\232", 0));
         pushButton->setText(QApplication::translate("Inquire", "\346\237\245\350\257\242", 0));
+        pushButton_3->setText(QApplication::translate("Inquire", "\350\264\255\347\245\250", 0));
         pushButton_2->setText(QApplication::translate("Inquire", "\351\200\200\345\207\272\345\275\223\345\211\215\347\231\273\345\275\225", 0));
     } // retranslateUi
 

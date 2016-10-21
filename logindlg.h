@@ -30,6 +30,9 @@ private slots:
 
     void on_pushButton_clicked();
 
+signals:
+    void sendAccount(QString account);
+
 private:
     Ui::LoginDlg *ui;
     int flag;

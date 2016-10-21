@@ -29,17 +29,26 @@ public:
     explicit Inquire(QWidget *parent = 0);
     int findTheLeast(QString trainnum, QString databasecolum);
     QString duringTime(QString leavetime, QString arrivaltime);
+    int calculatePrice(QString trainnum, QString databasecolum);
+    void minusTicketMargin(QString trainnum, QString databasecolum);
     ~Inquire();
+
+
+public slots:
+    void getAccount(QString account);
 
 private slots:
     void on_pushButton_2_clicked();
 
     void on_pushButton_clicked();
 
+    void on_pushButton_3_clicked();
+
 private:
     Ui::Inquire *ui;
     QString leaveStation;
     QString arrivalStation;
+    QString account;
     QDate leavedate;
     int flag;
     QStandardItemModel *model = new QStandardItemModel();
