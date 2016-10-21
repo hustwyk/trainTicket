@@ -84,8 +84,6 @@ public:
     QTableView *tableView_3;
     QVBoxLayout *verticalLayout_7;
     QSpacerItem *verticalSpacer_3;
-    QPushButton *pushButton_13;
-    QPushButton *pushButton_14;
     QPushButton *pushButton_15;
     QHBoxLayout *horizontalLayout_10;
     QSpacerItem *horizontalSpacer_4;
@@ -327,16 +325,6 @@ public:
 
         verticalLayout_7->addItem(verticalSpacer_3);
 
-        pushButton_13 = new QPushButton(tab_3);
-        pushButton_13->setObjectName(QStringLiteral("pushButton_13"));
-
-        verticalLayout_7->addWidget(pushButton_13);
-
-        pushButton_14 = new QPushButton(tab_3);
-        pushButton_14->setObjectName(QStringLiteral("pushButton_14"));
-
-        verticalLayout_7->addWidget(pushButton_14);
-
         pushButton_15 = new QPushButton(tab_3);
         pushButton_15->setObjectName(QStringLiteral("pushButton_15"));
 
@@ -375,7 +363,7 @@ public:
 
         retranslateUi(AdminDlg);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(AdminDlg);
@@ -400,8 +388,6 @@ public:
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("AdminDlg", "\347\224\250\346\210\267\347\256\241\347\220\206", 0));
         label_4->setText(QApplication::translate("AdminDlg", "\347\224\250\346\210\267\345\220\215\357\274\232", 0));
         pushButton_10->setText(QApplication::translate("AdminDlg", "\346\237\245\346\211\276", 0));
-        pushButton_13->setText(QApplication::translate("AdminDlg", "\346\267\273\345\212\240\350\256\242\345\215\225", 0));
-        pushButton_14->setText(QApplication::translate("AdminDlg", "\344\277\256\346\224\271\350\256\242\345\215\225", 0));
         pushButton_15->setText(QApplication::translate("AdminDlg", "\345\210\240\351\231\244\350\256\242\345\215\225", 0));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("AdminDlg", "\350\256\242\345\215\225\347\256\241\347\220\206", 0));
         pushButton_12->setText(QApplication::translate("AdminDlg", " \351\200\200\345\207\272\345\275\223\345\211\215\347\231\273\345\275\225", 0));

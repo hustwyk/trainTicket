@@ -21,6 +21,8 @@ class AdminDlg : public QDialog
 
 public:
     explicit AdminDlg(QWidget *parent = 0);
+    QString transToType(QString type);
+    void addTicketMargin(QString trainnum, QString leaveStation, QString arrivalStation, QString databasecolum);
     ~AdminDlg();
 
 private slots:
@@ -38,10 +40,18 @@ private slots:
 
     void on_pushButton_6_clicked();
 
+    void on_pushButton_8_clicked();
+
+    void on_pushButton_9_clicked();
+
+    void on_pushButton_15_clicked();
+
 signals:
 	void sendTrainnum(QString trainnum);
 
     void sendTrainnum_2(QString trainnum);
+
+    void sendUsername(QString username);
 
 private:
     Ui::AdminDlg *ui;

@@ -36,17 +36,20 @@
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{ffc9754b-43c1-474e-baa5-b31afada623a}</UniqueIdentifier>
+      <UniqueIdentifier>{d57f7a78-0945-46fb-8799-bff88cae2d50}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{adde9d82-cadc-4f65-9d5f-756fa9ad1bc1}</UniqueIdentifier>
+      <UniqueIdentifier>{d388d1bc-f7c7-4e3d-ac3a-003fce17391d}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="addpassengerdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="addstationdlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -79,6 +82,12 @@
     </ClCompile>
     <ClCompile Include="stationdlg.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_addpassengerdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_addpassengerdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="Debug\moc_addstationdlg.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -142,6 +151,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="addpassengerdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="addstationdlg.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
@@ -174,6 +186,9 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="addpassengerdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="addstationdlg.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
@@ -206,6 +221,9 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_addpassengerdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_addstationdlg.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
