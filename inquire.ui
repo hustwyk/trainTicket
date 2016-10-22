@@ -142,6 +142,13 @@
         </spacer>
        </item>
        <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="text">
+          <string>个人信息</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QPushButton" name="pushButton_2">
          <property name="text">
           <string>退出当前登录</string>

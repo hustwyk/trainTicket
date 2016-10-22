@@ -53,6 +53,7 @@ public:
     QPushButton *pushButton_3;
     QHBoxLayout *horizontalLayout_3;
     QSpacerItem *horizontalSpacer;
+    QPushButton *pushButton_4;
     QPushButton *pushButton_2;
 
     void setupUi(QDialog *Inquire)
@@ -162,6 +163,11 @@ public:
 
         horizontalLayout_3->addItem(horizontalSpacer);
 
+        pushButton_4 = new QPushButton(Inquire);
+        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
+
+        horizontalLayout_3->addWidget(pushButton_4);
+
         pushButton_2 = new QPushButton(Inquire);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
 
@@ -188,6 +194,7 @@ public:
         label_4->setText(QApplication::translate("Inquire", "\345\207\272\345\217\221\346\227\245\357\274\232", 0));
         pushButton->setText(QApplication::translate("Inquire", "\346\237\245\350\257\242", 0));
         pushButton_3->setText(QApplication::translate("Inquire", "\350\264\255\347\245\250", 0));
+        pushButton_4->setText(QApplication::translate("Inquire", "\344\270\252\344\272\272\344\277\241\346\201\257", 0));
         pushButton_2->setText(QApplication::translate("Inquire", "\351\200\200\345\207\272\345\275\223\345\211\215\347\231\273\345\275\225", 0));
     } // retranslateUi
 

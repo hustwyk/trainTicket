@@ -28,7 +28,7 @@ public:
 public slots:
     void getModifyColum(int i);
 
-    void getUsername(QString username);
+    void getUsername_2(QString username);
 
 private slots:
     void on_pushButton_clicked();

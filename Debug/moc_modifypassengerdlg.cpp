@@ -20,7 +20,7 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_ModifyPassengerDlg_t {
     QByteArrayData data[7];
-    char stringdata0[80];
+    char stringdata0[82];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,13 +33,13 @@ QT_MOC_LITERAL(0, 0, 18), // "ModifyPassengerDlg"
 QT_MOC_LITERAL(1, 19, 14), // "getModifyColum"
 QT_MOC_LITERAL(2, 34, 0), // ""
 QT_MOC_LITERAL(3, 35, 1), // "i"
-QT_MOC_LITERAL(4, 37, 11), // "getUsername"
-QT_MOC_LITERAL(5, 49, 8), // "username"
-QT_MOC_LITERAL(6, 58, 21) // "on_pushButton_clicked"
+QT_MOC_LITERAL(4, 37, 13), // "getUsername_2"
+QT_MOC_LITERAL(5, 51, 8), // "username"
+QT_MOC_LITERAL(6, 60, 21) // "on_pushButton_clicked"
 
     },
     "ModifyPassengerDlg\0getModifyColum\0\0i\0"
-    "getUsername\0username\0on_pushButton_clicked"
+    "getUsername_2\0username\0on_pushButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -76,7 +76,7 @@ void ModifyPassengerDlg::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->getModifyColum((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 1: _t->getUsername((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 1: _t->getUsername_2((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 2: _t->on_pushButton_clicked(); break;
         default: ;
         }

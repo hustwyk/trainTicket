@@ -44,7 +44,7 @@ public:
     {
         if (ModifyTrainDlg->objectName().isEmpty())
             ModifyTrainDlg->setObjectName(QStringLiteral("ModifyTrainDlg"));
-        ModifyTrainDlg->resize(340, 106);
+        ModifyTrainDlg->resize(376, 105);
         gridLayout_2 = new QGridLayout(ModifyTrainDlg);
         gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
         groupBox = new QGroupBox(ModifyTrainDlg);
