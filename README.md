@@ -1,3 +1,3 @@
 # Database Course Design
 
-This project is a small simulation about the railway ticket system.
+This project is a small simulation of the railway ticket system.
