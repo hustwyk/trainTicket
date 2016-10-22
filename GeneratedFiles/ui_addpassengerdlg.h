@@ -197,7 +197,7 @@ public:
 
     void retranslateUi(QDialog *AddPassengerDlg)
     {
-        AddPassengerDlg->setWindowTitle(QApplication::translate("AddPassengerDlg", "Dialog", 0));
+        AddPassengerDlg->setWindowTitle(QApplication::translate("AddPassengerDlg", "AddPassenger", 0));
         label_9->setText(QApplication::translate("AddPassengerDlg", "\346\267\273\345\212\240\347\224\250\346\210\267", 0));
         groupBox->setTitle(QApplication::translate("AddPassengerDlg", "GroupBox", 0));
         label_2->setText(QApplication::translate("AddPassengerDlg", "\345\257\206\347\240\201\357\274\232", 0));

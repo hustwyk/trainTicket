@@ -107,7 +107,7 @@ public:
 
     void retranslateUi(QDialog *StationDlg)
     {
-        StationDlg->setWindowTitle(QApplication::translate("StationDlg", "Station", 0));
+        StationDlg->setWindowTitle(QApplication::translate("StationDlg", "StationInfo", 0));
         groupBox->setTitle(QApplication::translate("StationDlg", "GroupBox", 0));
         pushButton_4->setText(QApplication::translate("StationDlg", "\345\210\267\346\226\260", 0));
         pushButton->setText(QApplication::translate("StationDlg", "\346\267\273\345\212\240\350\275\246\347\253\231", 0));

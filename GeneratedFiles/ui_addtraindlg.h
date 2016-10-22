@@ -213,7 +213,7 @@ public:
 
     void retranslateUi(QDialog *AddTrainDlg)
     {
-        AddTrainDlg->setWindowTitle(QApplication::translate("AddTrainDlg", "Dialog", 0));
+        AddTrainDlg->setWindowTitle(QApplication::translate("AddTrainDlg", "AddTrain", 0));
         groupBox->setTitle(QApplication::translate("AddTrainDlg", "GroupBox", 0));
         label->setText(QApplication::translate("AddTrainDlg", "\347\261\273\345\210\253\357\274\232", 0));
         label_2->setText(QApplication::translate("AddTrainDlg", "\345\247\213\345\217\221\347\253\231\357\274\232", 0));

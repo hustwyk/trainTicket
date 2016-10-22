@@ -363,7 +363,7 @@ public:
 
         retranslateUi(AdminDlg);
 
-        tabWidget->setCurrentIndex(2);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(AdminDlg);
@@ -371,7 +371,7 @@ public:
 
     void retranslateUi(QDialog *AdminDlg)
     {
-        AdminDlg->setWindowTitle(QApplication::translate("AdminDlg", "Admin", 0));
+        AdminDlg->setWindowTitle(QApplication::translate("AdminDlg", "AdminManager", 0));
         label->setText(QApplication::translate("AdminDlg", "\347\256\241\347\220\206\345\221\230\345\220\216\345\217\260", 0));
         label_2->setText(QApplication::translate("AdminDlg", "\350\275\246\346\254\241\357\274\232", 0));
         pushButton->setText(QApplication::translate("AdminDlg", "\346\237\245\346\211\276", 0));

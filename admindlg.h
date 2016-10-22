@@ -46,12 +46,24 @@ private slots:
 
     void on_pushButton_15_clicked();
 
+    void on_pushButton_11_clicked();
+
+    void on_pushButton_2_clicked();
+
 signals:
 	void sendTrainnum(QString trainnum);
 
     void sendTrainnum_2(QString trainnum);
 
     void sendUsername(QString username);
+
+    void sendModifyColum(int i);
+
+    void sendUsername_2(QString username);
+
+    void sendModifyColum_2(int i);
+
+    void sendTrainnum_3(QString trainnum);
 
 private:
     Ui::AdminDlg *ui;

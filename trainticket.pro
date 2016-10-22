@@ -24,7 +24,9 @@ SOURCES += main.cpp\
     addstationdlg.cpp \
     modifystationdlg.cpp \
     addtraindlg.cpp \
-    addpassengerdlg.cpp
+    addpassengerdlg.cpp \
+    modifypassengerdlg.cpp \
+    modifytraindlg.cpp
 
 HEADERS  += mainwindow.h \
     logindlg.h \
@@ -36,7 +38,9 @@ HEADERS  += mainwindow.h \
     addstationdlg.h \
     modifystationdlg.h \
     addtraindlg.h \
-    addpassengerdlg.h
+    addpassengerdlg.h \
+    modifypassengerdlg.h \
+    modifytraindlg.h
 
 FORMS    += mainwindow.ui \
     logindlg.ui \
@@ -48,4 +52,6 @@ FORMS    += mainwindow.ui \
     addstationdlg.ui \
     modifystationdlg.ui \
     addtraindlg.ui \
-    addpassengerdlg.ui
+    addpassengerdlg.ui \
+    modifypassengerdlg.ui \
+    modifytraindlg.ui

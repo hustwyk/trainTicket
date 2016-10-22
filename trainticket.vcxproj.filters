@@ -36,12 +36,12 @@
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{d57f7a78-0945-46fb-8799-bff88cae2d50}</UniqueIdentifier>
+      <UniqueIdentifier>{b1e4329d-ee19-4470-8322-4376da8ab46f}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{d388d1bc-f7c7-4e3d-ac3a-003fce17391d}</UniqueIdentifier>
+      <UniqueIdentifier>{4c82479e-ee12-4df8-a5d3-fe53a8249156}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
@@ -74,7 +74,13 @@
     <ClCompile Include="mainwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="modifypassengerdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="modifystationdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modifytraindlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="register.cpp">
@@ -131,10 +137,22 @@
     <ClCompile Include="Release\moc_mainwindow.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="Debug\moc_modifypassengerdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_modifypassengerdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
     <ClCompile Include="Debug\moc_modifystationdlg.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="Release\moc_modifystationdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_modifytraindlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_modifytraindlg.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="Debug\moc_register.cpp">
@@ -175,7 +193,13 @@
     <CustomBuild Include="mainwindow.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="modifypassengerdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="modifystationdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modifytraindlg.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="register.h">
@@ -210,7 +234,13 @@
     <CustomBuild Include="mainwindow.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="modifypassengerdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="modifystationdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modifytraindlg.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="register.ui">
@@ -245,7 +275,13 @@
     <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_modifypassengerdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_modifystationdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_modifytraindlg.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_register.h">

@@ -97,7 +97,7 @@ public:
 
     void retranslateUi(QDialog *ModifyStationDlg)
     {
-        ModifyStationDlg->setWindowTitle(QApplication::translate("ModifyStationDlg", "Modify", 0));
+        ModifyStationDlg->setWindowTitle(QApplication::translate("ModifyStationDlg", "ModifyStation", 0));
         groupBox->setTitle(QApplication::translate("ModifyStationDlg", "GroupBox", 0));
         label->setText(QApplication::translate("ModifyStationDlg", "\350\257\267\350\276\223\345\205\245\344\277\256\346\224\271\345\200\274\357\274\232", 0));
         pushButton->setText(QApplication::translate("ModifyStationDlg", "\346\217\220\344\272\244", 0));

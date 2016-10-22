@@ -252,7 +252,7 @@ public:
 
     void retranslateUi(QDialog *AddStationDlg)
     {
-        AddStationDlg->setWindowTitle(QApplication::translate("AddStationDlg", "Dialog", 0));
+        AddStationDlg->setWindowTitle(QApplication::translate("AddStationDlg", "AddStation", 0));
         groupBox->setTitle(QApplication::translate("AddStationDlg", "GroupBox", 0));
         label->setText(QApplication::translate("AddStationDlg", "\346\267\273\345\212\240\347\253\231\357\274\232", 0));
         label_2->setText(QApplication::translate("AddStationDlg", "\350\275\246\347\253\231\344\273\243\347\240\201\357\274\232", 0));
